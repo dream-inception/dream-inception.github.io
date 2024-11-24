@@ -1,0 +1,17 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://dream-inception.github.io/snowflake/"
+
+supported_apps = ["snowflake"]
+
+[snowflake]
+chipsets = ["ESP32S3",]
+image.esp32s3 = "snowflake_241124_v1.0.bin"
+
+console_baudrate = 115200
+
+ios_app_url = "https://espressif.github.io/esp-homekit-sdk/qrcode.html?data=X-HM://0052780XRES34"
+android_app_url = "http://snowflake.local/"
+
+
+description = ""
+readme.text = "https://oshwhub.com/it_zzc/snowflake"
